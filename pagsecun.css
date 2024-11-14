@@ -1,0 +1,102 @@
+body {
+    background-color: #1a1a3f;
+    color: #e0d5c5;
+    font-family: 'Georgia', serif;
+    background-image: url('sparkle_background.png'); /* Fondo de chispas mágicas */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #0b0230;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #d4c2f0;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(212, 194, 240, 0.5);
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Alegreya SC", serif;
+    color: rgb(255, 255, 255);
+    text-align: center
+}
+
+nav a {
+    color: #e0d5c5;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #d4c2f0;
+    text-shadow: 0 0 8px #d4c2f0;
+}
+
+section .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #615c98;
+    color: #e0d5c5;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(97, 92, 152, 0.5);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.button:hover {
+    background-color: #7d7bb8;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #e0d5c5, 0 0 20px #d4c2f0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #d4c2f0;
+    border-top: 1px solid #7d7bb8;
+    padding-top: 10px;
+}
+img-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.img-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+img-act{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.img-act img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+}
+.img-act img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,97 @@
+body {
+    background-color: #1a1a3f;
+    color: #f5e9dc;
+    font-family: 'Georgia', serif;
+    background-image: url('stars_background.png'); /* Fondo con estrellas */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #0b0230;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #c6b5de;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(198, 181, 222, 0.6);
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Alegreya SC", serif;
+    color: rgb(255, 255, 255);
+    text-align: center
+}
+
+nav a {
+    color: #f5e9dc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #d0c4ea;
+    text-shadow: 0 0 8px #f5e9dc;
+}
+
+section .buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.button {
+    padding: 10px 20px;
+    background-color: #4e4e87;
+    color: #f5e9dc;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(110, 109, 141, 0.7);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.button:hover {
+    background-color: #6f6fb0;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #d0c4ea, 0 0 20px #c6b5de;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #c6b5de;
+    border-top: 1px solid #d0c4ea;
+    padding-top: 10px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: 150px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.img-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+#escritora{
+    margin-left: 40%;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease;
+}
+#escritora:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}  
